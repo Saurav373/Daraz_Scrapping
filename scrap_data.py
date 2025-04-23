@@ -6,7 +6,7 @@ import pandas as pd
 import os
 
 
-query='laptop'
+query='laptop'#Your Searching item 
 
 driver = webdriver.Firefox()
 driver.get(f"https://www.daraz.com.np/catalog/?spm=a2a0e.searchlist.pagination.2.74565d72AaaoAb&_keyori=ss&from=input&q={query}&page=1")
